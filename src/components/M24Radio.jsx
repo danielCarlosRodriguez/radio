@@ -1,11 +1,10 @@
-
 import H5AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 
-const RadioPlayer = ({ streamUrl }) => {
+const M24Radio = ({ streamUrl }) => {
   return (
     <H5AudioPlayer
-      autoPlay
+      //autoPlay
       src={streamUrl}
       onPlay={(e) => console.log("Reproduciendo...")}
       // Puedes agregar otros eventos aquí, como onPause, onEnded, etc.
@@ -13,4 +12,4 @@ const RadioPlayer = ({ streamUrl }) => {
   );
 };
 
-export default RadioPlayer;
+export default M24Radio;
