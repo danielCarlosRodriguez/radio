@@ -1,0 +1,18 @@
+.btn-violet{
+    color: white;
+  --bs-btn-bg: #6f2df3;
+  --bs-btn-border-color: #6f2df3;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #5f2ac7;
+  --bs-btn-hover-border-color: #5729b3;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #5729b3;
+  --bs-btn-active-border-color: #4f279d;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #6f2df3;
+  --bs-btn-disabled-border-color: #6f2df3;
+}
+
+
