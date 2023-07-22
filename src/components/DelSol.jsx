@@ -76,7 +76,7 @@ const DelSol = () => {
             <video
               ref={videoRef}
               src="/casette.mp4"
-              controls
+              loop
               style={{ maxWidth: "100%", marginTop: "15px" }}
             >
               Your browser does not support the video tag.
